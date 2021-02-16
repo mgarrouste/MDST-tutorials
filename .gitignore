@@ -1,0 +1,9 @@
+#ignore python environment and packages requirements
+requirements.txt
+env
+#ignore tutorials' initial instructions folders
+tutorial1
+tutorial2
+#ignore tests
+checkpoint1/tests.ipynb
+checkpoint1/hello.txt
