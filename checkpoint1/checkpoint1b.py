@@ -68,7 +68,6 @@ def clean_title(title):
 
 def standardize_names(df):
     df.rename(mapper = clean_title, axis = 1, inplace=True)
-    #df.set_axis()
     return df
 
 
